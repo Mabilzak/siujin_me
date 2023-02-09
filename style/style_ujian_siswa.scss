@@ -20,6 +20,7 @@ header {
   nav {
     border: 0px solid purple;
     height: 76px;
+    padding: 0 4px;
     background-color: #31489e;
     .con-nav {
       border: 0px solid fuchsia;
@@ -32,6 +33,7 @@ header {
         border: 0px solid red;
         height: 100%;
         width: 140px;
+        padding-right: 6px;
       }
       .profile-nav {
         border: 0px solid lawngreen;
@@ -297,6 +299,7 @@ main {
         }
       }
       .navbar-keterangan-main {
+        cursor: pointer;
         i {
           transition: 0.2s;
           font-size: 24px;
@@ -355,6 +358,7 @@ main {
                 width: 40px;
                 border: 1px solid #787878;
                 padding-top: 8px;
+                cursor: pointer;
                 display: flex;
                 justify-content: center;
                 .radio-box-a-jawab-soljab-main {
@@ -364,6 +368,8 @@ main {
                   background-color: #787878;
                   border-radius: 20px;
                 }
+              }
+              .box-a-jawab-soljab-main:hover {
               }
               .deskripsi-a-jawab-soljab-main {
                 width: 100%;
@@ -496,7 +502,7 @@ main {
         flex-wrap: wrap;
         gap: 4px;
         .no-nomor-soljab-main {
-          border: 0.09px solid darkgoldenrod;
+          border: 0px solid darkgoldenrod;
           width: 32px;
           height: 32px;
           background-color: #787878;
@@ -504,7 +510,7 @@ main {
           align-items: center;
           justify-content: center;
           p {
-            border: 0.09px solid rebeccapurple;
+            border: 0px solid rebeccapurple;
             color: #fbfbfb;
             font-size: 12px;
           }
@@ -521,7 +527,7 @@ main {
     .con-button-main {
       display: grid;
       .finish-main {
-        border: 0.09px solid purple;
+        border: 0px solid purple;
         width: 140px;
         height: 36px;
         cursor: pointer;
@@ -572,6 +578,2025 @@ footer {
       p {
         border: 0px solid purple;
         color: #787878;
+      }
+    }
+  }
+}
+
+//Sweetalert Customize Style
+.swal2-popup {
+  font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+//Responsive Customize
+// `xl` applies to large devices (desktops, less than 1200px)
+@media only screen and (max-width: 1199.98px) {
+  main {
+    border: 0px solid purple;
+    width: 100%;
+    .judul-main {
+      border: 0px solid seagreen;
+      margin-top: 24px;
+      .con-judul-main {
+        height: 48px;
+        border: 0px solid crimson;
+        display: flex;
+        .mapel-judul-main {
+          border: 0px solid orange;
+          height: 100%;
+          width: 50%;
+          display: flex;
+          align-items: center;
+          .title-mapel-judul-main {
+            height: 100%;
+            width: 36%;
+            border: 1px solid #787878;
+            padding: 0 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            p {
+              border: 0px solid mediumspringgreen;
+              font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+              font-weight: 700;
+              font-size: 20px;
+            }
+          }
+          .text-mapel-judul-main {
+            height: 100%;
+            width: 64%;
+            border: 1px solid #787878;
+            padding: 0 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            p {
+              border: 0px solid cyan;
+              font-size: 20px;
+            }
+          }
+        }
+        .dasis-judul-main {
+          width: 50%;
+          display: flex;
+          align-items: center;
+          .title-dasis-judul-main {
+            height: 100%;
+            width: 36%;
+            border: 1px solid #787878;
+            padding: 0 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            p {
+              border: 0px solid crimson;
+              font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+              font-weight: 700;
+              font-size: 20px;
+            }
+          }
+          .text-dasis-judul-main {
+            height: 100%;
+            width: 64%;
+            border: 1px solid #787878;
+            padding: 0 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            p {
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+    .perhatian-main {
+      .con-perhatian-main {
+        border: 0px solid olive;
+        display: flex;
+        .judul-perhatian-main {
+          width: 20%;
+          border: 1px solid #787878;
+          padding: 8px 16px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          p {
+            border: 0px solid midnightblue;
+            font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+            color: #ff0000;
+            font-weight: 700;
+            font-size: 24px;
+          }
+        }
+        .keterangan-perhatian-main {
+          border: 1px solid #787878;
+          width: 80%;
+          padding: 8px 16px;
+          display: flex;
+          align-items: center;
+          ul {
+            border: 0px solid midnightblue;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+    .keterangan-main {
+      margin-top: 12px;
+      position: sticky;
+      top: 0;
+      background-color: #fbfbfb;
+      .con-keterangan-main {
+        border: 0px solid darkolivegreen;
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+        height: 48px;
+        .isi-keterangan-main {
+          border: 1px solid #787878;
+          height: 100%;
+          width: 95%;
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          .no-keterangan-main {
+            border: 1px solid #31489e;
+            height: 32px;
+            width: 104px;
+            display: flex;
+            align-items: center;
+            p:nth-child(1) {
+              border: 0px solid purple;
+              height: 100%;
+              width: 74%;
+              font-weight: 600;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            }
+            p:nth-child(2) {
+              border: 0px solid mediumspringgreen;
+              height: 100%;
+              width: 26%;
+              background-color: #31489e;
+              color: #fbfbfb;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            }
+          }
+          .warna-keterangan-main {
+            border: 0px solid goldenrod;
+            height: 100%;
+            width: 60%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            .hijau-warna-keterangan-main {
+              border: 0px solid yellowgreen;
+              display: flex;
+              align-items: center;
+              gap: 8px;
+              .isi-hijau-warna-keterangan-main {
+                border: 0px solid maroon;
+                height: 16px;
+                width: 16px;
+                background-color: #219900;
+              }
+              p {
+                font-size: 12px;
+              }
+            }
+            .kuning-warna-keterangan-main {
+              display: flex;
+              align-items: center;
+              gap: 8px;
+              .isi-kuning-warna-keterangan-main {
+                height: 16px;
+                width: 16px;
+                background-color: #ffc700;
+              }
+              p {
+                font-size: 12px;
+              }
+            }
+            .abu-warna-keterangan-main {
+              display: flex;
+              align-items: center;
+              gap: 8px;
+              .isi-abu-warna-keterangan-main {
+                height: 16px;
+                width: 16px;
+                background-color: #808080;
+              }
+              p {
+                font-size: 12px;
+              }
+            }
+          }
+          .waktu-keterangan-main {
+            border: 1px solid #31489e;
+            height: 32px;
+            width: 200px;
+            display: flex;
+            align-items: center;
+            .judul-waktu-keterangan-main {
+              border: 0px solid darkolivegreen;
+              height: 100%;
+              width: 48%;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              p {
+                font-weight: 600;
+                font-size: 14px;
+              }
+            }
+            .keterangan-waktu-keterangan-main {
+              border: 0px solid indianred;
+              height: 100%;
+              width: 52%;
+              background-color: #31489e;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              padding-left: 4px;
+              p {
+                color: #fbfbfb;
+                font-size: 15px;
+                letter-spacing: 4px;
+              }
+            }
+          }
+        }
+        .navbar-keterangan-main {
+          cursor: pointer;
+          i {
+            transition: 0.2s;
+            font-size: 24px;
+          }
+        }
+        .navbar-keterangan-main:hover {
+          i {
+            font-size: 26px;
+          }
+        }
+        .navbar-click {
+          i {
+            transform: rotate(90deg);
+          }
+        }
+      }
+    }
+    .soljab-main {
+      border: 0px solid purple;
+      width: 100%;
+      margin: 16px 0;
+      .con-soljab-main {
+        border: 0px solid magenta;
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        .place-soljab-main {
+          border: 0px solid navy;
+          width: 79%;
+          transition: 0.3s;
+          .soaljawab-soljab-main {
+            border: 0px solid navy;
+            width: 100%;
+            margin-bottom: 8px;
+            .soal-soljab-main {
+              width: 100%;
+              border: 1px solid #787878;
+              padding: 8px;
+              // .img-soal-soljab-main {
+              // }
+              .keterangan-soal-soljab-main {
+                border: 0px solid green;
+                p {
+                }
+              }
+            }
+            .jawab-soljab-main {
+              border: 0px solid green;
+              width: 100%;
+              .a-jawab-soljab-main {
+                border: 0px solid red;
+                min-height: 40px;
+                display: flex;
+                .box-a-jawab-soljab-main {
+                  width: 40px;
+                  border: 1px solid #787878;
+                  padding-top: 8px;
+                  display: flex;
+                  justify-content: center;
+                  .radio-box-a-jawab-soljab-main {
+                    height: 20px;
+                    width: 20px;
+                    border: 2px solid #0000;
+                    background-color: #787878;
+                    border-radius: 20px;
+                  }
+                }
+                .deskripsi-a-jawab-soljab-main {
+                  width: 100%;
+                  border: 1px solid #787878;
+                  padding: 8px;
+                  p {
+                  }
+                }
+              }
+              .b-jawab-soljab-main {
+                border: 0px solid red;
+                min-height: 40px;
+                display: flex;
+                .box-b-jawab-soljab-main {
+                  border: 1px solid #787878;
+                  width: 40px;
+                  padding-top: 8px;
+                  display: flex;
+                  justify-content: center;
+                  .radio-box-b-jawab-soljab-main {
+                    height: 20px;
+                    width: 20px;
+                    border: 2px solid #0000;
+                    background-color: #787878;
+                    border-radius: 20px;
+                  }
+                }
+                .deskripsi-b-jawab-soljab-main {
+                  border: 1px solid #787878;
+                  width: 100%;
+                  padding: 8px;
+                  p {
+                  }
+                }
+              }
+              .c-jawab-soljab-main {
+                border: 0px solid red;
+                min-height: 40px;
+                display: flex;
+                .box-c-jawab-soljab-main {
+                  border: 1px solid #787878;
+                  width: 40px;
+                  padding-top: 8px;
+                  display: flex;
+                  justify-content: center;
+                  .radio-box-c-jawab-soljab-main {
+                    height: 20px;
+                    width: 20px;
+                    border: 2px solid #0000;
+                    background-color: #787878;
+                    border-radius: 20px;
+                  }
+                }
+                .deskripsi-c-jawab-soljab-main {
+                  border: 1px solid #787878;
+                  width: 100%;
+                  padding: 8px;
+                  p {
+                  }
+                }
+              }
+              .d-jawab-soljab-main {
+                border: 0px solid red;
+                min-height: 40px;
+                display: flex;
+                .box-d-jawab-soljab-main {
+                  border: 1px solid #787878;
+                  width: 40px;
+                  padding-top: 8px;
+                  display: flex;
+                  justify-content: center;
+                  .radio-box-d-jawab-soljab-main {
+                    height: 20px;
+                    width: 20px;
+                    border: 2px solid #0000;
+                    background-color: #787878;
+                    border-radius: 20px;
+                  }
+                }
+                .deskripsi-d-jawab-soljab-main {
+                  border: 1px solid #787878;
+                  width: 100%;
+                  padding: 8px;
+                  p {
+                  }
+                }
+              }
+              .e-jawab-soljab-main {
+                border: 0px solid red;
+                min-height: 40px;
+                display: flex;
+                .box-e-jawab-soljab-main {
+                  border: 1px solid #787878;
+                  width: 40px;
+                  padding-top: 8px;
+                  display: flex;
+                  justify-content: center;
+                  .radio-box-e-jawab-soljab-main {
+                    height: 20px;
+                    width: 20px;
+                    border: 2px solid #0000;
+                    background-color: #787878;
+                    border-radius: 20px;
+                  }
+                }
+                .deskripsi-e-jawab-soljab-main {
+                  border: 1px solid #787878;
+                  width: 100%;
+                  padding: 8px;
+                  p {
+                  }
+                }
+              }
+            }
+          }
+        }
+        div.place_full {
+          transition: 0.3s;
+          width: 100%;
+        }
+        .nomor-soljab-main {
+          width: 186px;
+          border: 1px solid #787878;
+          padding: 4px;
+          background-color: #d9d9d9;
+          position: sticky;
+          top: 16px + 12px + 48px;
+          overflow: hidden;
+          display: flex;
+          flex-wrap: wrap;
+          gap: 4px;
+          .no-nomor-soljab-main {
+            border: 0px solid darkgoldenrod;
+            width: 32px;
+            height: 32px;
+            background-color: #787878;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            p {
+              border: 0px solid rebeccapurple;
+              color: #fbfbfb;
+              font-size: 12px;
+            }
+          }
+        }
+        div.matt-close_no {
+          display: none;
+          // transition: 1s;
+          // transform: scaleX(0);
+        }
+      }
+    }
+    .button-main {
+      .con-button-main {
+        display: grid;
+        .finish-main {
+          border: 0px solid purple;
+          width: 140px;
+          height: 36px;
+          cursor: pointer;
+          justify-self: end;
+          border-radius: 4px;
+          padding: 0 6px;
+          background-color: #31489e;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          p {
+            color: #fbfbfb;
+            font-size: 14px;
+          }
+          i {
+            color: #fbfbfb;
+          }
+        }
+        .finish-main:hover {
+          transition: 0.3s;
+          background-color: #263159;
+        }
+        .finish-main:active {
+          p {
+            transition: 0.3s;
+            font-size: 14.2px;
+          }
+          i {
+            transition: 0.3s;
+            font-size: 16.5px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// `lg` applies to medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  body {
+    font-size: 14px;
+  }
+
+  main {
+    border: 0px solid purple;
+    width: 100%;
+    .judul-main {
+      border: 0px solid seagreen;
+      margin-top: 24px;
+      .con-judul-main {
+        // height: 48px;
+        height: auto;
+        border: 0px solid crimson;
+        display: flex;
+        flex-wrap: wrap;
+        .mapel-judul-main {
+          border: 0px solid orange;
+          // height: 100%;
+          height: 40px;
+          width: 100%;
+          display: flex;
+          align-items: center;
+          .title-mapel-judul-main {
+            height: 100%;
+            width: 36%;
+            border: 1px solid #787878;
+            padding: 0 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            p {
+              border: 0px solid mediumspringgreen;
+              font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+              font-weight: 700;
+              // font-size: 20px;
+              font-size: 18px;
+            }
+          }
+          .text-mapel-judul-main {
+            height: 100%;
+            width: 64%;
+            border: 1px solid #787878;
+            padding: 0 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            p {
+              border: 0px solid cyan;
+              // font-size: 20px;
+              font-size: 18px;
+            }
+          }
+        }
+        .dasis-judul-main {
+          width: 100%;
+          height: 40px;
+          display: flex;
+          align-items: center;
+          .title-dasis-judul-main {
+            height: 100%;
+            width: 36%;
+            border: 1px solid #787878;
+            padding: 0 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            p {
+              border: 0px solid crimson;
+              font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+              font-weight: 700;
+              // font-size: 20px;
+              font-size: 18px;
+            }
+          }
+          .text-dasis-judul-main {
+            height: 100%;
+            width: 64%;
+            border: 1px solid #787878;
+            padding: 0 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            p {
+              // font-size: 20px;
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+    .perhatian-main {
+      .con-perhatian-main {
+        border: 0px solid olive;
+        display: flex;
+        .judul-perhatian-main {
+          width: 20%;
+          border: 1px solid #787878;
+          padding: 8px 16px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          p {
+            border: 0px solid midnightblue;
+            font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+            color: #ff0000;
+            font-weight: 700;
+            // font-size: 24px;
+            font-size: 20px;
+          }
+        }
+        .keterangan-perhatian-main {
+          border: 1px solid #787878;
+          width: 80%;
+          padding: 8px 16px;
+          display: flex;
+          align-items: center;
+          ul {
+            border: 0px solid midnightblue;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+    .keterangan-main {
+      margin-top: 12px;
+      position: sticky;
+      top: 0;
+      background-color: #fbfbfb;
+      .con-keterangan-main {
+        border: 0px solid darkolivegreen;
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+        height: 48px;
+        .isi-keterangan-main {
+          border: 1px solid #787878;
+          height: 100%;
+          width: 95%;
+          padding: 8px;
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          .no-keterangan-main {
+            border: 1px solid #31489e;
+            height: 28px;
+            width: 90px;
+            display: flex;
+            align-items: center;
+            p:nth-child(1) {
+              border: 0px solid purple;
+              height: 100%;
+              width: 74%;
+              font-weight: 600;
+              font-size: 12px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            }
+            p:nth-child(2) {
+              border: 0px solid mediumspringgreen;
+              height: 100%;
+              width: 26%;
+              background-color: #31489e;
+              color: #fbfbfb;
+              font-size: 12px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            }
+          }
+          .warna-keterangan-main {
+            border: 0px solid goldenrod;
+            height: 100%;
+            width: 60%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            .hijau-warna-keterangan-main {
+              border: 0px solid yellowgreen;
+              display: flex;
+              align-items: center;
+              gap: 8px;
+              .isi-hijau-warna-keterangan-main {
+                border: 0px solid maroon;
+                height: 16px;
+                width: 16px;
+                background-color: #219900;
+              }
+              p {
+                font-size: 12px;
+              }
+            }
+            .kuning-warna-keterangan-main {
+              display: flex;
+              align-items: center;
+              gap: 8px;
+              .isi-kuning-warna-keterangan-main {
+                height: 16px;
+                width: 16px;
+                background-color: #ffc700;
+              }
+              p {
+                font-size: 12px;
+              }
+            }
+            .abu-warna-keterangan-main {
+              display: flex;
+              align-items: center;
+              gap: 8px;
+              .isi-abu-warna-keterangan-main {
+                height: 16px;
+                width: 16px;
+                background-color: #808080;
+              }
+              p {
+                font-size: 12px;
+              }
+            }
+          }
+          .waktu-keterangan-main {
+            border: 1px solid #31489e;
+            height: 28px;
+            width: 180px;
+            display: flex;
+            align-items: center;
+            .judul-waktu-keterangan-main {
+              border: 0px solid darkolivegreen;
+              height: 100%;
+              width: 48%;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              p {
+                font-weight: 600;
+                // font-size: 14px;
+                font-size: 12px;
+              }
+            }
+            .keterangan-waktu-keterangan-main {
+              border: 0px solid indianred;
+              height: 100%;
+              width: 52%;
+              background-color: #31489e;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              padding-left: 4px;
+              p {
+                color: #fbfbfb;
+                // font-size: 15px;
+                font-size: 13px;
+                letter-spacing: 4px;
+              }
+            }
+          }
+        }
+        .navbar-keterangan-main {
+          cursor: pointer;
+          i {
+            transition: 0.2s;
+            font-size: 24px;
+          }
+        }
+        .navbar-keterangan-main:hover {
+          i {
+            font-size: 26px;
+          }
+        }
+        .navbar-click {
+          i {
+            transform: rotate(90deg);
+          }
+        }
+      }
+    }
+    .soljab-main {
+      border: 0px solid purple;
+      width: 100%;
+      margin: 16px 0;
+      .con-soljab-main {
+        border: 0px solid magenta;
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        .place-soljab-main {
+          border: 0px solid navy;
+          width: 72%;
+          transition: 0.3s;
+          .soaljawab-soljab-main {
+            border: 0px solid navy;
+            width: 100%;
+            margin-bottom: 8px;
+            .soal-soljab-main {
+              width: 100%;
+              border: 1px solid #787878;
+              padding: 8px;
+              // .img-soal-soljab-main {
+              // }
+              .keterangan-soal-soljab-main {
+                border: 0px solid green;
+                p {
+                }
+              }
+            }
+            .jawab-soljab-main {
+              border: 0px solid green;
+              width: 100%;
+              .a-jawab-soljab-main {
+                border: 0px solid red;
+                min-height: 40px;
+                display: flex;
+                .box-a-jawab-soljab-main {
+                  width: 40px;
+                  border: 1px solid #787878;
+                  padding-top: 8px;
+                  display: flex;
+                  justify-content: center;
+                  .radio-box-a-jawab-soljab-main {
+                    height: 20px;
+                    width: 20px;
+                    border: 2px solid #0000;
+                    background-color: #787878;
+                    border-radius: 20px;
+                  }
+                }
+                .deskripsi-a-jawab-soljab-main {
+                  width: 100%;
+                  border: 1px solid #787878;
+                  padding: 8px;
+                  p {
+                  }
+                }
+              }
+              .b-jawab-soljab-main {
+                border: 0px solid red;
+                min-height: 40px;
+                display: flex;
+                .box-b-jawab-soljab-main {
+                  border: 1px solid #787878;
+                  width: 40px;
+                  padding-top: 8px;
+                  display: flex;
+                  justify-content: center;
+                  .radio-box-b-jawab-soljab-main {
+                    height: 20px;
+                    width: 20px;
+                    border: 2px solid #0000;
+                    background-color: #787878;
+                    border-radius: 20px;
+                  }
+                }
+                .deskripsi-b-jawab-soljab-main {
+                  border: 1px solid #787878;
+                  width: 100%;
+                  padding: 8px;
+                  p {
+                  }
+                }
+              }
+              .c-jawab-soljab-main {
+                border: 0px solid red;
+                min-height: 40px;
+                display: flex;
+                .box-c-jawab-soljab-main {
+                  border: 1px solid #787878;
+                  width: 40px;
+                  padding-top: 8px;
+                  display: flex;
+                  justify-content: center;
+                  .radio-box-c-jawab-soljab-main {
+                    height: 20px;
+                    width: 20px;
+                    border: 2px solid #0000;
+                    background-color: #787878;
+                    border-radius: 20px;
+                  }
+                }
+                .deskripsi-c-jawab-soljab-main {
+                  border: 1px solid #787878;
+                  width: 100%;
+                  padding: 8px;
+                  p {
+                  }
+                }
+              }
+              .d-jawab-soljab-main {
+                border: 0px solid red;
+                min-height: 40px;
+                display: flex;
+                .box-d-jawab-soljab-main {
+                  border: 1px solid #787878;
+                  width: 40px;
+                  padding-top: 8px;
+                  display: flex;
+                  justify-content: center;
+                  .radio-box-d-jawab-soljab-main {
+                    height: 20px;
+                    width: 20px;
+                    border: 2px solid #0000;
+                    background-color: #787878;
+                    border-radius: 20px;
+                  }
+                }
+                .deskripsi-d-jawab-soljab-main {
+                  border: 1px solid #787878;
+                  width: 100%;
+                  padding: 8px;
+                  p {
+                  }
+                }
+              }
+              .e-jawab-soljab-main {
+                border: 0px solid red;
+                min-height: 40px;
+                display: flex;
+                .box-e-jawab-soljab-main {
+                  border: 1px solid #787878;
+                  width: 40px;
+                  padding-top: 8px;
+                  display: flex;
+                  justify-content: center;
+                  .radio-box-e-jawab-soljab-main {
+                    height: 20px;
+                    width: 20px;
+                    border: 2px solid #0000;
+                    background-color: #787878;
+                    border-radius: 20px;
+                  }
+                }
+                .deskripsi-e-jawab-soljab-main {
+                  border: 1px solid #787878;
+                  width: 100%;
+                  padding: 8px;
+                  p {
+                  }
+                }
+              }
+            }
+          }
+        }
+        div.place_full {
+          transition: 0.3s;
+          width: 100%;
+        }
+        .nomor-soljab-main {
+          width: 186px;
+          border: 1px solid #787878;
+          padding: 4px;
+          background-color: #d9d9d9;
+          position: sticky;
+          top: 16px + 12px + 48px;
+          overflow: hidden;
+          display: flex;
+          flex-wrap: wrap;
+          gap: 4px;
+          .no-nomor-soljab-main {
+            border: 0px solid darkgoldenrod;
+            width: 32px;
+            height: 32px;
+            background-color: #787878;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            p {
+              border: 0px solid rebeccapurple;
+              color: #fbfbfb;
+              font-size: 12px;
+            }
+          }
+        }
+        div.matt-close_no {
+          display: none;
+          // transition: 1s;
+          // transform: scaleX(0);
+        }
+      }
+    }
+    .button-main {
+      .con-button-main {
+        display: grid;
+        .finish-main {
+          border: 0px solid purple;
+          width: 140px;
+          height: 36px;
+          cursor: pointer;
+          justify-self: end;
+          border-radius: 4px;
+          padding: 0 6px;
+          background-color: #31489e;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          p {
+            color: #fbfbfb;
+            // font-size: 14px;
+            font-size: 12px;
+          }
+          i {
+            color: #fbfbfb;
+          }
+        }
+        .finish-main:hover {
+          transition: 0.3s;
+          background-color: #263159;
+        }
+        .finish-main:active {
+          p {
+            transition: 0.3s;
+            font-size: 12.1px;
+          }
+          i {
+            transition: 0.3s;
+            // font-size: 12.5px;
+            font-size: inherit;
+          }
+        }
+      }
+    }
+  }
+}
+
+// `md` applies to small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  main {
+    border: 0px solid purple;
+    width: 100%;
+    .judul-main {
+      border: 0px solid seagreen;
+      margin-top: 24px;
+      margin-bottom: 8px;
+      .con-judul-main {
+        // height: 48px;
+        height: auto;
+        border: 0px solid crimson;
+        display: flex;
+        flex-wrap: wrap;
+        .mapel-judul-main {
+          border: 0px solid orange;
+          // height: 40px;
+          height: 60px;
+          width: 100%;
+          border: 1px solid #787878;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          .title-mapel-judul-main {
+            height: 100%;
+            // width: 40%;
+            width: 100%;
+            border: 0px solid #787878;
+            padding: 0 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            p {
+              border: 0px solid mediumspringgreen;
+              font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+              font-weight: 700;
+              // font-size: 18px;
+              font-size: 16px;
+            }
+          }
+          .text-mapel-judul-main {
+            height: 100%;
+            // width: 60%;
+            width: 100%;
+            border: 0px solid #787878;
+            padding: 0 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            p {
+              border: 0px solid cyan;
+              // font-size: 18px;
+              font-size: 12px;
+            }
+          }
+        }
+        .dasis-judul-main {
+          width: 100%;
+          // height: 40px;
+          height: 60px;
+
+          border: 1px solid #787878;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          .title-dasis-judul-main {
+            height: 100%;
+            // width: 40%;
+            width: 100%;
+            border: 0px solid #787878;
+            padding: 0 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            p {
+              border: 0px solid crimson;
+              font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+              font-weight: 700;
+              // font-size: 18px;
+              font-size: 16px;
+            }
+          }
+          .text-dasis-judul-main {
+            height: 100%;
+            // width: 60%;
+            width: 100%;
+            border: 0px solid #787878;
+            padding: 0 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            p {
+              // font-size: 18px;
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+    .perhatian-main {
+      .con-perhatian-main {
+        border: 0px solid olive;
+        border: 0px solid #787878;
+        display: flex;
+        flex-direction: column;
+        .judul-perhatian-main {
+          width: 100%;
+          border: 0px solid #787878;
+          border-top: 1px solid #787878;
+          border-left: 1px solid #787878;
+          border-right: 1px solid #787878;
+          padding: 8px 16px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          p {
+            border: 0px solid midnightblue;
+            font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+            color: #ff0000;
+            font-weight: 700;
+            // font-size: 20px;
+            font-size: 16px;
+          }
+        }
+        .keterangan-perhatian-main {
+          border: 0px solid #787878;
+          width: 100%;
+          border-left: 1px solid #787878;
+          border-right: 1px solid #787878;
+          border-bottom: 1px solid #787878;
+          padding: 8px 16px;
+          display: flex;
+          align-items: center;
+          ul {
+            border: 0px solid midnightblue;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+    .keterangan-main {
+      margin-top: 12px;
+      position: sticky;
+      top: 0;
+      background-color: #fbfbfb;
+      .con-keterangan-main {
+        border: 0px solid darkolivegreen;
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+        height: 96px;
+        .isi-keterangan-main {
+          height: 100%;
+          width: 95%;
+          margin-right: 4px;
+          border: 1px solid #787878;
+          padding: 8px;
+          // display: flex;
+          align-items: normal;
+          justify-content: flex-start;
+          display: grid;
+          grid-template:
+            "warna warna" 1fr
+            "no waktu" 1fr / 1fr 1fr;
+          .no-keterangan-main {
+            grid-area: no;
+            height: 28px;
+            width: 88px;
+            align-self: center;
+            justify-self: center;
+            border: 1px solid #31489e;
+            display: flex;
+            align-items: center;
+            p:nth-child(1) {
+              border: 0px solid purple;
+              height: 100%;
+              width: 74%;
+              font-weight: 600;
+              font-size: 12px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            }
+            p:nth-child(2) {
+              border: 0px solid mediumspringgreen;
+              height: 100%;
+              width: 26%;
+              background-color: #31489e;
+              color: #fbfbfb;
+              font-size: 12px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            }
+          }
+          .warna-keterangan-main {
+            border: 0px solid goldenrod;
+            grid-area: warna;
+            height: 100%;
+            width: 100%;
+            align-self: center;
+            justify-self: center;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            .hijau-warna-keterangan-main {
+              border: 0px solid yellowgreen;
+              display: flex;
+              align-items: center;
+              gap: 8px;
+              .isi-hijau-warna-keterangan-main {
+                border: 0px solid maroon;
+                height: 16px;
+                width: 16px;
+                background-color: #219900;
+              }
+              p {
+                font-size: 12px;
+              }
+            }
+            .kuning-warna-keterangan-main {
+              display: flex;
+              align-items: center;
+              gap: 8px;
+              .isi-kuning-warna-keterangan-main {
+                height: 16px;
+                width: 16px;
+                background-color: #ffc700;
+              }
+              p {
+                font-size: 12px;
+              }
+            }
+            .abu-warna-keterangan-main {
+              display: flex;
+              align-items: center;
+              gap: 8px;
+              .isi-abu-warna-keterangan-main {
+                height: 16px;
+                width: 16px;
+                background-color: #808080;
+              }
+              p {
+                font-size: 12px;
+              }
+            }
+          }
+          .waktu-keterangan-main {
+            grid-area: waktu;
+            height: 28px;
+            width: 180px;
+            align-self: center;
+            justify-self: center;
+            border: 1px solid #31489e;
+            display: flex;
+            align-items: center;
+            .judul-waktu-keterangan-main {
+              border: 0px solid darkolivegreen;
+              height: 100%;
+              width: 48%;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              p {
+                font-weight: 600;
+                // font-size: 14px;
+                font-size: 12px;
+              }
+            }
+            .keterangan-waktu-keterangan-main {
+              border: 0px solid indianred;
+              height: 100%;
+              width: 52%;
+              background-color: #31489e;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              padding-left: 4px;
+              p {
+                color: #fbfbfb;
+                // font-size: 15px;
+                font-size: 13px;
+                letter-spacing: 4px;
+              }
+            }
+          }
+        }
+        .navbar-keterangan-main {
+          cursor: pointer;
+          i {
+            transition: 0.2s;
+            font-size: 24px;
+          }
+        }
+        .navbar-keterangan-main:hover {
+          i {
+            font-size: 26px;
+          }
+        }
+        .navbar-click {
+          i {
+            transform: rotate(90deg);
+          }
+        }
+      }
+    }
+    .soljab-main {
+      border: 0px solid purple;
+      width: 100%;
+      margin: 16px 0;
+      .con-soljab-main {
+        border: 0px solid magenta;
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+        .place-soljab-main {
+          border: 0px solid navy;
+          width: 100%;
+          transition: 0.3s;
+          .soaljawab-soljab-main {
+            border: 0px solid navy;
+            width: 100%;
+            margin-bottom: 8px;
+            .soal-soljab-main {
+              width: 100%;
+              border: 1px solid #787878;
+              padding: 8px;
+              // .img-soal-soljab-main {
+              // }
+              .keterangan-soal-soljab-main {
+                border: 0px solid green;
+                p {
+                }
+              }
+            }
+            .jawab-soljab-main {
+              border: 0px solid green;
+              width: 100%;
+              .a-jawab-soljab-main {
+                border: 0px solid red;
+                min-height: 40px;
+                display: flex;
+                .box-a-jawab-soljab-main {
+                  width: 40px;
+                  border: 1px solid #787878;
+                  padding-top: 8px;
+                  display: flex;
+                  justify-content: center;
+                  .radio-box-a-jawab-soljab-main {
+                    height: 20px;
+                    width: 20px;
+                    border: 2px solid #0000;
+                    background-color: #787878;
+                    border-radius: 20px;
+                  }
+                }
+                .deskripsi-a-jawab-soljab-main {
+                  width: 100%;
+                  border: 1px solid #787878;
+                  padding: 8px;
+                  p {
+                  }
+                }
+              }
+              .b-jawab-soljab-main {
+                border: 0px solid red;
+                min-height: 40px;
+                display: flex;
+                .box-b-jawab-soljab-main {
+                  border: 1px solid #787878;
+                  width: 40px;
+                  padding-top: 8px;
+                  display: flex;
+                  justify-content: center;
+                  .radio-box-b-jawab-soljab-main {
+                    height: 20px;
+                    width: 20px;
+                    border: 2px solid #0000;
+                    background-color: #787878;
+                    border-radius: 20px;
+                  }
+                }
+                .deskripsi-b-jawab-soljab-main {
+                  border: 1px solid #787878;
+                  width: 100%;
+                  padding: 8px;
+                  p {
+                  }
+                }
+              }
+              .c-jawab-soljab-main {
+                border: 0px solid red;
+                min-height: 40px;
+                display: flex;
+                .box-c-jawab-soljab-main {
+                  border: 1px solid #787878;
+                  width: 40px;
+                  padding-top: 8px;
+                  display: flex;
+                  justify-content: center;
+                  .radio-box-c-jawab-soljab-main {
+                    height: 20px;
+                    width: 20px;
+                    border: 2px solid #0000;
+                    background-color: #787878;
+                    border-radius: 20px;
+                  }
+                }
+                .deskripsi-c-jawab-soljab-main {
+                  border: 1px solid #787878;
+                  width: 100%;
+                  padding: 8px;
+                  p {
+                  }
+                }
+              }
+              .d-jawab-soljab-main {
+                border: 0px solid red;
+                min-height: 40px;
+                display: flex;
+                .box-d-jawab-soljab-main {
+                  border: 1px solid #787878;
+                  width: 40px;
+                  padding-top: 8px;
+                  display: flex;
+                  justify-content: center;
+                  .radio-box-d-jawab-soljab-main {
+                    height: 20px;
+                    width: 20px;
+                    border: 2px solid #0000;
+                    background-color: #787878;
+                    border-radius: 20px;
+                  }
+                }
+                .deskripsi-d-jawab-soljab-main {
+                  border: 1px solid #787878;
+                  width: 100%;
+                  padding: 8px;
+                  p {
+                  }
+                }
+              }
+              .e-jawab-soljab-main {
+                border: 0px solid red;
+                min-height: 40px;
+                display: flex;
+                .box-e-jawab-soljab-main {
+                  border: 1px solid #787878;
+                  width: 40px;
+                  padding-top: 8px;
+                  display: flex;
+                  justify-content: center;
+                  .radio-box-e-jawab-soljab-main {
+                    height: 20px;
+                    width: 20px;
+                    border: 2px solid #0000;
+                    background-color: #787878;
+                    border-radius: 20px;
+                  }
+                }
+                .deskripsi-e-jawab-soljab-main {
+                  border: 1px solid #787878;
+                  width: 100%;
+                  padding: 8px;
+                  p {
+                  }
+                }
+              }
+            }
+          }
+        }
+        div.place_full {
+          transition: 0.3s;
+          width: 100%;
+        }
+        .nomor-soljab-main {
+          width: 100%;
+          margin-bottom: 8px;
+          border: 1px solid #787878;
+          padding: 4px;
+          background-color: #d9d9d9;
+          position: sticky;
+          // top: 16px + 12px + 48px;
+          top: 100px;
+          overflow: hidden;
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          gap: 4px;
+          .no-nomor-soljab-main {
+            border: 0px solid darkgoldenrod;
+            width: 32px;
+            height: 32px;
+            background-color: #787878;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            p {
+              border: 0px solid rebeccapurple;
+              color: #fbfbfb;
+              font-size: 12px;
+            }
+          }
+        }
+        div.matt-close_no {
+          display: none;
+          // transition: 1s;
+          // transform: scaleX(0);
+        }
+      }
+    }
+    .button-main {
+      .con-button-main {
+        display: grid;
+        .finish-main {
+          border: 0px solid purple;
+          width: 140px;
+          height: 36px;
+          cursor: pointer;
+          justify-self: end;
+          border-radius: 4px;
+          padding: 0 6px;
+          background-color: #31489e;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          p {
+            color: #fbfbfb;
+            // font-size: 14px;
+            font-size: 12px;
+          }
+          i {
+            color: #fbfbfb;
+          }
+        }
+        .finish-main:hover {
+          transition: 0.3s;
+          background-color: #263159;
+        }
+        .finish-main:active {
+          p {
+            transition: 0.3s;
+            font-size: 12.1px;
+          }
+          i {
+            transition: 0.3s;
+            // font-size: 12.5px;
+            font-size: inherit;
+          }
+        }
+      }
+    }
+  }
+}
+
+// `sm` applies to x-small devices (portrait phones, less than 576px)
+@media (max-width: 340.98px) {
+  main {
+    border: 0px solid purple;
+    width: 100%;
+    .keterangan-main {
+      margin-top: 12px;
+      position: sticky;
+      top: 0;
+      background-color: #fbfbfb;
+      .con-keterangan-main {
+        border: 0px solid darkolivegreen;
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+        height: 80px;
+        .isi-keterangan-main {
+          height: 100%;
+          width: 95%;
+          border: 1px solid #787878;
+          padding: 8px;
+          // display: flex;
+          align-items: normal;
+          justify-content: flex-start;
+          display: grid;
+          grid-template:
+            "warna warna" 1fr
+            "no waktu" 1fr / 1fr 1fr;
+          .no-keterangan-main {
+            grid-area: no;
+            height: 20px;
+            width: 88px;
+            align-self: center;
+            justify-self: center;
+            border: 1px solid #31489e;
+            display: flex;
+            align-items: center;
+            p:nth-child(1) {
+              border: 0px solid purple;
+              height: 100%;
+              width: 54%;
+              font-weight: 600;
+              font-size: 10px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            }
+            p:nth-child(2) {
+              border: 0px solid mediumspringgreen;
+              height: 100%;
+              width: 56%;
+              background-color: #31489e;
+              color: #fbfbfb;
+              font-size: 10px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            }
+          }
+          .warna-keterangan-main {
+            border: 0px solid goldenrod;
+            grid-area: warna;
+            height: 100%;
+            width: 100%;
+            align-self: center;
+            justify-self: center;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            .hijau-warna-keterangan-main {
+              border: 0px solid yellowgreen;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              gap: 8px;
+              .isi-hijau-warna-keterangan-main {
+                border: 0px solid maroon;
+                height: 8px;
+                width: 8px;
+                background-color: #219900;
+              }
+              p {
+                font-size: 9px;
+              }
+            }
+            .kuning-warna-keterangan-main {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              gap: 8px;
+              .isi-kuning-warna-keterangan-main {
+                height: 8px;
+                width: 8px;
+                background-color: #ffc700;
+              }
+              p {
+                font-size: 9px;
+              }
+            }
+            .abu-warna-keterangan-main {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              gap: 8px;
+              .isi-abu-warna-keterangan-main {
+                height: 8px;
+                width: 8px;
+                background-color: #808080;
+              }
+              p {
+                font-size: 9px;
+              }
+            }
+          }
+          .waktu-keterangan-main {
+            grid-area: waktu;
+            height: 20px;
+            width: 140px;
+            align-self: center;
+            justify-self: center;
+            border: 1px solid #31489e;
+            display: flex;
+            align-items: center;
+            .judul-waktu-keterangan-main {
+              border: 0px solid darkolivegreen;
+              height: 100%;
+              width: 48%;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              p {
+                font-weight: 600;
+                // font-size: 12px;
+                font-size: 10px;
+              }
+            }
+            .keterangan-waktu-keterangan-main {
+              border: 0px solid indianred;
+              height: 100%;
+              width: 52%;
+              background-color: #31489e;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              padding-left: 4px;
+              p {
+                color: #fbfbfb;
+                // font-size: 13px;
+                font-size: 10px;
+                letter-spacing: 4px;
+              }
+            }
+          }
+        }
+        .navbar-keterangan-main {
+          cursor: pointer;
+          i {
+            transition: 0.2s;
+            font-size: 24px;
+          }
+        }
+        .navbar-keterangan-main:hover {
+          i {
+            font-size: 26px;
+          }
+        }
+        .navbar-click {
+          i {
+            transform: rotate(90deg);
+          }
+        }
+      }
+    }
+    .soljab-main {
+      border: 0px solid purple;
+      width: 100%;
+      margin: 16px 0;
+      .con-soljab-main {
+        border: 0px solid magenta;
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+        .place-soljab-main {
+          border: 0px solid navy;
+          width: 100%;
+          transition: 0.3s;
+          .soaljawab-soljab-main {
+            border: 0px solid navy;
+            width: 100%;
+            margin-bottom: 8px;
+            .soal-soljab-main {
+              width: 100%;
+              border: 1px solid #787878;
+              padding: 8px;
+              // .img-soal-soljab-main {
+              // }
+              .keterangan-soal-soljab-main {
+                border: 0px solid green;
+                p {
+                }
+              }
+            }
+            .jawab-soljab-main {
+              border: 0px solid green;
+              width: 100%;
+              .a-jawab-soljab-main {
+                border: 0px solid red;
+                min-height: 40px;
+                display: flex;
+                .box-a-jawab-soljab-main {
+                  width: 40px;
+                  border: 1px solid #787878;
+                  padding-top: 8px;
+                  display: flex;
+                  justify-content: center;
+                  .radio-box-a-jawab-soljab-main {
+                    height: 20px;
+                    width: 20px;
+                    border: 2px solid #0000;
+                    background-color: #787878;
+                    border-radius: 20px;
+                  }
+                }
+                .deskripsi-a-jawab-soljab-main {
+                  width: 100%;
+                  border: 1px solid #787878;
+                  padding: 8px;
+                  p {
+                  }
+                }
+              }
+              .b-jawab-soljab-main {
+                border: 0px solid red;
+                min-height: 40px;
+                display: flex;
+                .box-b-jawab-soljab-main {
+                  border: 1px solid #787878;
+                  width: 40px;
+                  padding-top: 8px;
+                  display: flex;
+                  justify-content: center;
+                  .radio-box-b-jawab-soljab-main {
+                    height: 20px;
+                    width: 20px;
+                    border: 2px solid #0000;
+                    background-color: #787878;
+                    border-radius: 20px;
+                  }
+                }
+                .deskripsi-b-jawab-soljab-main {
+                  border: 1px solid #787878;
+                  width: 100%;
+                  padding: 8px;
+                  p {
+                  }
+                }
+              }
+              .c-jawab-soljab-main {
+                border: 0px solid red;
+                min-height: 40px;
+                display: flex;
+                .box-c-jawab-soljab-main {
+                  border: 1px solid #787878;
+                  width: 40px;
+                  padding-top: 8px;
+                  display: flex;
+                  justify-content: center;
+                  .radio-box-c-jawab-soljab-main {
+                    height: 20px;
+                    width: 20px;
+                    border: 2px solid #0000;
+                    background-color: #787878;
+                    border-radius: 20px;
+                  }
+                }
+                .deskripsi-c-jawab-soljab-main {
+                  border: 1px solid #787878;
+                  width: 100%;
+                  padding: 8px;
+                  p {
+                  }
+                }
+              }
+              .d-jawab-soljab-main {
+                border: 0px solid red;
+                min-height: 40px;
+                display: flex;
+                .box-d-jawab-soljab-main {
+                  border: 1px solid #787878;
+                  width: 40px;
+                  padding-top: 8px;
+                  display: flex;
+                  justify-content: center;
+                  .radio-box-d-jawab-soljab-main {
+                    height: 20px;
+                    width: 20px;
+                    border: 2px solid #0000;
+                    background-color: #787878;
+                    border-radius: 20px;
+                  }
+                }
+                .deskripsi-d-jawab-soljab-main {
+                  border: 1px solid #787878;
+                  width: 100%;
+                  padding: 8px;
+                  p {
+                  }
+                }
+              }
+              .e-jawab-soljab-main {
+                border: 0px solid red;
+                min-height: 40px;
+                display: flex;
+                .box-e-jawab-soljab-main {
+                  border: 1px solid #787878;
+                  width: 40px;
+                  padding-top: 8px;
+                  display: flex;
+                  justify-content: center;
+                  .radio-box-e-jawab-soljab-main {
+                    height: 20px;
+                    width: 20px;
+                    border: 2px solid #0000;
+                    background-color: #787878;
+                    border-radius: 20px;
+                  }
+                }
+                .deskripsi-e-jawab-soljab-main {
+                  border: 1px solid #787878;
+                  width: 100%;
+                  padding: 8px;
+                  p {
+                  }
+                }
+              }
+            }
+          }
+        }
+        div.place_full {
+          transition: 0.3s;
+          width: 100%;
+        }
+        .nomor-soljab-main {
+          width: 100%;
+          margin-bottom: 8px;
+          border: 1px solid #787878;
+          padding: 4px;
+          background-color: #d9d9d9;
+          position: sticky;
+          // top: 16px + 12px + 48px;
+          top: 100px;
+          overflow: hidden;
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          gap: 4px;
+          .no-nomor-soljab-main {
+            border: 0px solid darkgoldenrod;
+            width: 32px;
+            height: 32px;
+            background-color: #787878;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            p {
+              border: 0px solid rebeccapurple;
+              color: #fbfbfb;
+              font-size: 12px;
+            }
+          }
+        }
+        div.matt-close_no {
+          display: none;
+          // transition: 1s;
+          // transform: scaleX(0);
+        }
+      }
+    }
+    .button-main {
+      .con-button-main {
+        display: grid;
+        .finish-main {
+          border: 0px solid purple;
+          width: 140px;
+          height: 36px;
+          cursor: pointer;
+          justify-self: end;
+          border-radius: 4px;
+          padding: 0 6px;
+          background-color: #31489e;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          p {
+            color: #fbfbfb;
+            // font-size: 14px;
+            font-size: 12px;
+          }
+          i {
+            color: #fbfbfb;
+          }
+        }
+        .finish-main:hover {
+          transition: 0.3s;
+          background-color: #263159;
+        }
+        .finish-main:active {
+          p {
+            transition: 0.3s;
+            font-size: 12.1px;
+          }
+          i {
+            transition: 0.3s;
+            // font-size: 12.5px;
+            font-size: inherit;
+          }
+        }
       }
     }
   }
