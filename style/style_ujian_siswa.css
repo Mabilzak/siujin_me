@@ -1,0 +1,545 @@
+body {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  background-color: #fbfbfb;
+  font-size: 16px;
+}
+
+p,
+ul {
+  margin: 0;
+}
+
+div {
+  border: 0px dashed aqua;
+  box-sizing: border-box;
+}
+
+header {
+  border: 0px solid aqua;
+}
+header nav {
+  border: 0px solid purple;
+  height: 76px;
+  background-color: #31489e;
+}
+header nav .con-nav {
+  border: 0px solid fuchsia;
+  height: 100%;
+  padding: 8px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header nav .con-nav .logo-nav {
+  border: 0px solid red;
+  height: 100%;
+  width: 140px;
+}
+header nav .con-nav .profile-nav {
+  border: 0px solid lawngreen;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 4px;
+}
+header nav .con-nav .profile-nav .nama-profile-nav {
+  border: 0px solid purple;
+}
+header nav .con-nav .profile-nav .nama-profile-nav p {
+  border: 0px solid purple;
+  color: #fbfbfb;
+  font-size: 12px;
+}
+header nav .con-nav .profile-nav .avatar-profile-nav {
+  border: 0px solid darkorange;
+  color: #fbfbfb;
+}
+
+main {
+  border: 0px solid purple;
+  width: 100%;
+}
+main .judul-main {
+  border: 0px solid seagreen;
+  margin-top: 24px;
+}
+main .judul-main .con-judul-main {
+  height: 48px;
+  border: 0px solid crimson;
+  display: flex;
+}
+main .judul-main .con-judul-main .mapel-judul-main {
+  border: 0px solid orange;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+main .judul-main .con-judul-main .mapel-judul-main .title-mapel-judul-main {
+  height: 100%;
+  width: 36%;
+  border: 1px solid #787878;
+  padding: 0 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .judul-main .con-judul-main .mapel-judul-main .title-mapel-judul-main p {
+  border: 0px solid mediumspringgreen;
+  font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+main .judul-main .con-judul-main .mapel-judul-main .text-mapel-judul-main {
+  height: 100%;
+  width: 64%;
+  border: 1px solid #787878;
+  padding: 0 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .judul-main .con-judul-main .mapel-judul-main .text-mapel-judul-main p {
+  border: 0px solid cyan;
+  font-size: 20px;
+}
+main .judul-main .con-judul-main .dasis-judul-main {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+main .judul-main .con-judul-main .dasis-judul-main .title-dasis-judul-main {
+  height: 100%;
+  width: 36%;
+  border: 1px solid #787878;
+  padding: 0 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .judul-main .con-judul-main .dasis-judul-main .title-dasis-judul-main p {
+  border: 0px solid crimson;
+  font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+main .judul-main .con-judul-main .dasis-judul-main .text-dasis-judul-main {
+  height: 100%;
+  width: 64%;
+  border: 1px solid #787878;
+  padding: 0 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .judul-main .con-judul-main .dasis-judul-main .text-dasis-judul-main p {
+  font-size: 20px;
+}
+main .perhatian-main .con-perhatian-main {
+  border: 0px solid olive;
+  display: flex;
+}
+main .perhatian-main .con-perhatian-main .judul-perhatian-main {
+  width: 20%;
+  border: 1px solid #787878;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .perhatian-main .con-perhatian-main .judul-perhatian-main p {
+  border: 0px solid midnightblue;
+  font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+  color: #ff0000;
+  font-weight: 700;
+  font-size: 24px;
+}
+main .perhatian-main .con-perhatian-main .keterangan-perhatian-main {
+  border: 1px solid #787878;
+  width: 80%;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+}
+main .perhatian-main .con-perhatian-main .keterangan-perhatian-main ul {
+  border: 0px solid midnightblue;
+  font-size: 12px;
+}
+main .keterangan-main {
+  margin-top: 12px;
+  position: sticky;
+  top: 0;
+  background-color: #fbfbfb;
+}
+main .keterangan-main .con-keterangan-main {
+  border: 0px solid darkolivegreen;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  height: 48px;
+}
+main .keterangan-main .con-keterangan-main .isi-keterangan-main {
+  border: 1px solid #787878;
+  height: 100%;
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+main .keterangan-main .con-keterangan-main .isi-keterangan-main .no-keterangan-main {
+  border: 1px solid #31489e;
+  height: 32px;
+  width: 104px;
+  display: flex;
+  align-items: center;
+}
+main .keterangan-main .con-keterangan-main .isi-keterangan-main .no-keterangan-main p:nth-child(1) {
+  border: 0px solid purple;
+  height: 100%;
+  width: 74%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .keterangan-main .con-keterangan-main .isi-keterangan-main .no-keterangan-main p:nth-child(2) {
+  border: 0px solid mediumspringgreen;
+  height: 100%;
+  width: 26%;
+  background-color: #31489e;
+  color: #fbfbfb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .keterangan-main .con-keterangan-main .isi-keterangan-main .warna-keterangan-main {
+  border: 0px solid goldenrod;
+  height: 100%;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+main .keterangan-main .con-keterangan-main .isi-keterangan-main .warna-keterangan-main .hijau-warna-keterangan-main {
+  border: 0px solid yellowgreen;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+main .keterangan-main .con-keterangan-main .isi-keterangan-main .warna-keterangan-main .hijau-warna-keterangan-main .isi-hijau-warna-keterangan-main {
+  border: 0px solid maroon;
+  height: 16px;
+  width: 16px;
+  background-color: #219900;
+}
+main .keterangan-main .con-keterangan-main .isi-keterangan-main .warna-keterangan-main .hijau-warna-keterangan-main p {
+  font-size: 12px;
+}
+main .keterangan-main .con-keterangan-main .isi-keterangan-main .warna-keterangan-main .kuning-warna-keterangan-main {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+main .keterangan-main .con-keterangan-main .isi-keterangan-main .warna-keterangan-main .kuning-warna-keterangan-main .isi-kuning-warna-keterangan-main {
+  height: 16px;
+  width: 16px;
+  background-color: #ffc700;
+}
+main .keterangan-main .con-keterangan-main .isi-keterangan-main .warna-keterangan-main .kuning-warna-keterangan-main p {
+  font-size: 12px;
+}
+main .keterangan-main .con-keterangan-main .isi-keterangan-main .warna-keterangan-main .abu-warna-keterangan-main {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+main .keterangan-main .con-keterangan-main .isi-keterangan-main .warna-keterangan-main .abu-warna-keterangan-main .isi-abu-warna-keterangan-main {
+  height: 16px;
+  width: 16px;
+  background-color: #808080;
+}
+main .keterangan-main .con-keterangan-main .isi-keterangan-main .warna-keterangan-main .abu-warna-keterangan-main p {
+  font-size: 12px;
+}
+main .keterangan-main .con-keterangan-main .isi-keterangan-main .waktu-keterangan-main {
+  border: 1px solid #31489e;
+  height: 32px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+}
+main .keterangan-main .con-keterangan-main .isi-keterangan-main .waktu-keterangan-main .judul-waktu-keterangan-main {
+  border: 0px solid darkolivegreen;
+  height: 100%;
+  width: 48%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .keterangan-main .con-keterangan-main .isi-keterangan-main .waktu-keterangan-main .judul-waktu-keterangan-main p {
+  font-weight: 600;
+  font-size: 14px;
+}
+main .keterangan-main .con-keterangan-main .isi-keterangan-main .waktu-keterangan-main .keterangan-waktu-keterangan-main {
+  border: 0px solid indianred;
+  height: 100%;
+  width: 52%;
+  background-color: #31489e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 4px;
+}
+main .keterangan-main .con-keterangan-main .isi-keterangan-main .waktu-keterangan-main .keterangan-waktu-keterangan-main p {
+  color: #fbfbfb;
+  font-size: 15px;
+  letter-spacing: 4px;
+}
+main .keterangan-main .con-keterangan-main .navbar-keterangan-main i {
+  transition: 0.2s;
+  font-size: 24px;
+}
+main .keterangan-main .con-keterangan-main .navbar-keterangan-main:hover i {
+  font-size: 26px;
+}
+main .keterangan-main .con-keterangan-main .navbar-click i {
+  transform: rotate(90deg);
+}
+main .soljab-main {
+  border: 0px solid purple;
+  width: 100%;
+  margin: 16px 0;
+}
+main .soljab-main .con-soljab-main {
+  border: 0px solid magenta;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+main .soljab-main .con-soljab-main .place-soljab-main {
+  border: 0px solid navy;
+  width: 82.5%;
+  transition: 0.3s;
+}
+main .soljab-main .con-soljab-main .place-soljab-main .soaljawab-soljab-main {
+  border: 0px solid navy;
+  width: 100%;
+  margin-bottom: 8px;
+}
+main .soljab-main .con-soljab-main .place-soljab-main .soaljawab-soljab-main .soal-soljab-main {
+  width: 100%;
+  border: 1px solid #787878;
+  padding: 8px;
+}
+main .soljab-main .con-soljab-main .place-soljab-main .soaljawab-soljab-main .soal-soljab-main .keterangan-soal-soljab-main {
+  border: 0px solid green;
+}
+main .soljab-main .con-soljab-main .place-soljab-main .soaljawab-soljab-main .jawab-soljab-main {
+  border: 0px solid green;
+  width: 100%;
+}
+main .soljab-main .con-soljab-main .place-soljab-main .soaljawab-soljab-main .jawab-soljab-main .a-jawab-soljab-main {
+  border: 0px solid red;
+  min-height: 40px;
+  display: flex;
+}
+main .soljab-main .con-soljab-main .place-soljab-main .soaljawab-soljab-main .jawab-soljab-main .a-jawab-soljab-main .box-a-jawab-soljab-main {
+  width: 40px;
+  border: 1px solid #787878;
+  padding-top: 8px;
+  display: flex;
+  justify-content: center;
+}
+main .soljab-main .con-soljab-main .place-soljab-main .soaljawab-soljab-main .jawab-soljab-main .a-jawab-soljab-main .box-a-jawab-soljab-main .radio-box-a-jawab-soljab-main {
+  height: 20px;
+  width: 20px;
+  border: 2px solid rgba(0, 0, 0, 0);
+  background-color: #787878;
+  border-radius: 20px;
+}
+main .soljab-main .con-soljab-main .place-soljab-main .soaljawab-soljab-main .jawab-soljab-main .a-jawab-soljab-main .deskripsi-a-jawab-soljab-main {
+  width: 100%;
+  border: 1px solid #787878;
+  padding: 8px;
+}
+main .soljab-main .con-soljab-main .place-soljab-main .soaljawab-soljab-main .jawab-soljab-main .b-jawab-soljab-main {
+  border: 0px solid red;
+  min-height: 40px;
+  display: flex;
+}
+main .soljab-main .con-soljab-main .place-soljab-main .soaljawab-soljab-main .jawab-soljab-main .b-jawab-soljab-main .box-b-jawab-soljab-main {
+  border: 1px solid #787878;
+  width: 40px;
+  padding-top: 8px;
+  display: flex;
+  justify-content: center;
+}
+main .soljab-main .con-soljab-main .place-soljab-main .soaljawab-soljab-main .jawab-soljab-main .b-jawab-soljab-main .box-b-jawab-soljab-main .radio-box-b-jawab-soljab-main {
+  height: 20px;
+  width: 20px;
+  border: 2px solid rgba(0, 0, 0, 0);
+  background-color: #787878;
+  border-radius: 20px;
+}
+main .soljab-main .con-soljab-main .place-soljab-main .soaljawab-soljab-main .jawab-soljab-main .b-jawab-soljab-main .deskripsi-b-jawab-soljab-main {
+  border: 1px solid #787878;
+  width: 100%;
+  padding: 8px;
+}
+main .soljab-main .con-soljab-main .place-soljab-main .soaljawab-soljab-main .jawab-soljab-main .c-jawab-soljab-main {
+  border: 0px solid red;
+  min-height: 40px;
+  display: flex;
+}
+main .soljab-main .con-soljab-main .place-soljab-main .soaljawab-soljab-main .jawab-soljab-main .c-jawab-soljab-main .box-c-jawab-soljab-main {
+  border: 1px solid #787878;
+  width: 40px;
+  padding-top: 8px;
+  display: flex;
+  justify-content: center;
+}
+main .soljab-main .con-soljab-main .place-soljab-main .soaljawab-soljab-main .jawab-soljab-main .c-jawab-soljab-main .box-c-jawab-soljab-main .radio-box-c-jawab-soljab-main {
+  height: 20px;
+  width: 20px;
+  border: 2px solid rgba(0, 0, 0, 0);
+  background-color: #787878;
+  border-radius: 20px;
+}
+main .soljab-main .con-soljab-main .place-soljab-main .soaljawab-soljab-main .jawab-soljab-main .c-jawab-soljab-main .deskripsi-c-jawab-soljab-main {
+  border: 1px solid #787878;
+  width: 100%;
+  padding: 8px;
+}
+main .soljab-main .con-soljab-main .place-soljab-main .soaljawab-soljab-main .jawab-soljab-main .d-jawab-soljab-main {
+  border: 0px solid red;
+  min-height: 40px;
+  display: flex;
+}
+main .soljab-main .con-soljab-main .place-soljab-main .soaljawab-soljab-main .jawab-soljab-main .d-jawab-soljab-main .box-d-jawab-soljab-main {
+  border: 1px solid #787878;
+  width: 40px;
+  padding-top: 8px;
+  display: flex;
+  justify-content: center;
+}
+main .soljab-main .con-soljab-main .place-soljab-main .soaljawab-soljab-main .jawab-soljab-main .d-jawab-soljab-main .box-d-jawab-soljab-main .radio-box-d-jawab-soljab-main {
+  height: 20px;
+  width: 20px;
+  border: 2px solid rgba(0, 0, 0, 0);
+  background-color: #787878;
+  border-radius: 20px;
+}
+main .soljab-main .con-soljab-main .place-soljab-main .soaljawab-soljab-main .jawab-soljab-main .d-jawab-soljab-main .deskripsi-d-jawab-soljab-main {
+  border: 1px solid #787878;
+  width: 100%;
+  padding: 8px;
+}
+main .soljab-main .con-soljab-main .place-soljab-main .soaljawab-soljab-main .jawab-soljab-main .e-jawab-soljab-main {
+  border: 0px solid red;
+  min-height: 40px;
+  display: flex;
+}
+main .soljab-main .con-soljab-main .place-soljab-main .soaljawab-soljab-main .jawab-soljab-main .e-jawab-soljab-main .box-e-jawab-soljab-main {
+  border: 1px solid #787878;
+  width: 40px;
+  padding-top: 8px;
+  display: flex;
+  justify-content: center;
+}
+main .soljab-main .con-soljab-main .place-soljab-main .soaljawab-soljab-main .jawab-soljab-main .e-jawab-soljab-main .box-e-jawab-soljab-main .radio-box-e-jawab-soljab-main {
+  height: 20px;
+  width: 20px;
+  border: 2px solid rgba(0, 0, 0, 0);
+  background-color: #787878;
+  border-radius: 20px;
+}
+main .soljab-main .con-soljab-main .place-soljab-main .soaljawab-soljab-main .jawab-soljab-main .e-jawab-soljab-main .deskripsi-e-jawab-soljab-main {
+  border: 1px solid #787878;
+  width: 100%;
+  padding: 8px;
+}
+main .soljab-main .con-soljab-main div.place_full {
+  transition: 0.3s;
+  width: 100%;
+}
+main .soljab-main .con-soljab-main .nomor-soljab-main {
+  width: 186px;
+  border: 1px solid #787878;
+  padding: 4px;
+  background-color: #d9d9d9;
+  position: sticky;
+  top: 76px;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+main .soljab-main .con-soljab-main .nomor-soljab-main .no-nomor-soljab-main {
+  border: 0.09px solid darkgoldenrod;
+  width: 32px;
+  height: 32px;
+  background-color: #787878;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .soljab-main .con-soljab-main .nomor-soljab-main .no-nomor-soljab-main p {
+  border: 0.09px solid rebeccapurple;
+  color: #fbfbfb;
+  font-size: 12px;
+}
+main .soljab-main .con-soljab-main div.matt-close_no {
+  display: none;
+}
+main .button-main .con-button-main {
+  display: grid;
+}
+main .button-main .con-button-main .finish-main {
+  border: 0.09px solid purple;
+  width: 140px;
+  height: 36px;
+  cursor: pointer;
+  justify-self: end;
+  border-radius: 4px;
+  padding: 0 6px;
+  background-color: #31489e;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .button-main .con-button-main .finish-main p {
+  color: #fbfbfb;
+  font-size: 14px;
+}
+main .button-main .con-button-main .finish-main i {
+  color: #fbfbfb;
+}
+main .button-main .con-button-main .finish-main:hover {
+  transition: 0.3s;
+  background-color: #263159;
+}
+main .button-main .con-button-main .finish-main:active {
+  transition: 0.3s;
+  background-color: #263159;
+}
+
+footer {
+  border: 0px solid purple;
+  margin-top: 24px;
+}
+footer .copyright-footer {
+  border: 0px solid purple;
+  background-color: #dcdcdc;
+}
+footer .copyright-footer .con-copyright-footer {
+  border: 0px solid purple;
+  height: 56px;
+  display: flex;
+  align-items: center;
+}
+footer .copyright-footer .con-copyright-footer p {
+  border: 0px solid purple;
+  color: #787878;
+}/*# sourceMappingURL=style_ujian_siswa.css.map */

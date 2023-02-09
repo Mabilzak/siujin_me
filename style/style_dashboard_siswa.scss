@@ -1,0 +1,171 @@
+body {
+  // font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+  background-color: #fbfbfb;
+  font-size: 16px;
+}
+p {
+  margin: 0;
+}
+
+header {
+  border: 0px solid aqua;
+  nav {
+    border: 0px solid purple;
+    height: 76px;
+    background-color: #31489e;
+    .con-nav {
+      border: 0px solid fuchsia;
+      height: 100%;
+      padding: 8px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .logo-nav {
+        border: 0px solid red;
+        height: 100%;
+        width: 140px;
+      }
+      .profile-nav {
+        border: 0px solid lawngreen;
+        width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 4px;
+        .nama-profile-nav {
+          border: 0px solid purple;
+          p {
+            border: 0px solid purple;
+            color: #fbfbfb;
+            font-size: 12px;
+          }
+        }
+        .avatar-profile-nav {
+          border: 0px solid darkorange;
+          color: #fbfbfb;
+        }
+      }
+    }
+  }
+}
+main {
+  border: 0px solid purple;
+  .isi-main {
+    border: 0px solid purple;
+    .con-isi-main {
+      border: 0px solid purple;
+      .title-isi-main {
+        border: 0px solid lawngreen;
+        height: 120px;
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
+        p {
+          border: 0px solid tomato;
+          font-family: "Poppins", Arial, Helvetica, sans-serif;
+          font-weight: 600;
+          font-size: 28px;
+        }
+      }
+      .mapel-isi-main {
+        border: 0px solid purple;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 40px;
+        .kartu {
+          border: 1px solid #4158aa;
+          height: 280px;
+          width: 300px;
+          border-radius: 24px;
+          overflow: hidden;
+          .img-kartu {
+            border: 0px solid hotpink;
+            height: 40%;
+            width: 100%;
+          }
+          .keterangan-kartu {
+            border: 0px solid darkorange;
+            height: 60%;
+            padding: 6px 6px 0px 6px;
+            background-color: #4158aa;
+            color: #fbfbfb;
+            display: grid;
+            grid-template: "kiri kanan" 1fr / 2fr 1.1fr;
+            .kiri-keterangan-kartu {
+              border: 0px solid purple;
+              grid-area: kiri;
+              height: 100%;
+              .mapel-kiri-keterangan-kartu {
+                border: 0px solid purple;
+                p {
+                  border: 0px solid purple;
+                  font-weight: 700;
+                  font-size: 14px;
+                }
+              }
+              .guru-kiri-keterangan-kartu {
+                border: 0px solid purple;
+                p {
+                  border: 0px solid purple;
+                  font-size: 12px;
+                }
+              }
+              .waktu-kiri-keterangan-kartu {
+                border: 0px solid purple;
+                margin-top: 47%;
+                p {
+                  border: 0px solid purple;
+                }
+              }
+            }
+            .kanan-keterangan-kartu {
+              border: 0px solid purple;
+              grid-area: kanan;
+              height: 100%;
+              display: flex;
+              flex-direction: column;
+              align-items: flex-end;
+              justify-content: space-between;
+              .tanggal-kanan-keterangan-kartu {
+                border: 0px solid purple;
+                p {
+                  border: 0px solid purple;
+                }
+              }
+              .kondisi-kanan-keterangan-kartu {
+                border: 0px solid gold;
+                height: 18px;
+                width: 18px;
+                margin-right: 8px;
+                margin-bottom: 12px;
+                border-radius: 18px;
+                background-color: #fbfbfb;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+footer {
+  border: 0px solid purple;
+  margin-top: 24px;
+  .copyright-footer {
+    border: 0px solid purple;
+    background-color: #dcdcdc;
+    .con-copyright-footer {
+      border: 0px solid purple;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      p {
+        border: 0px solid purple;
+        color: #787878;
+      }
+    }
+  }
+}

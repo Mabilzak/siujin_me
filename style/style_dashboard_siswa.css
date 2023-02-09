@@ -1,0 +1,172 @@
+body {
+  font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+  background-color: #fbfbfb;
+  font-size: 16px;
+}
+
+p {
+  margin: 0;
+}
+
+header {
+  border: 0px solid aqua;
+}
+header nav {
+  border: 0px solid purple;
+  height: 76px;
+  background-color: #31489e;
+}
+header nav .con-nav {
+  border: 0px solid fuchsia;
+  height: 100%;
+  padding: 8px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header nav .con-nav .logo-nav {
+  border: 0px solid red;
+  height: 100%;
+  width: 140px;
+}
+header nav .con-nav .profile-nav {
+  border: 0px solid lawngreen;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 4px;
+}
+header nav .con-nav .profile-nav .nama-profile-nav {
+  border: 0px solid purple;
+}
+header nav .con-nav .profile-nav .nama-profile-nav p {
+  border: 0px solid purple;
+  color: #fbfbfb;
+  font-size: 12px;
+}
+header nav .con-nav .profile-nav .avatar-profile-nav {
+  border: 0px solid darkorange;
+  color: #fbfbfb;
+}
+
+main {
+  border: 0px solid purple;
+}
+main .isi-main {
+  border: 0px solid purple;
+}
+main .isi-main .con-isi-main {
+  border: 0px solid purple;
+}
+main .isi-main .con-isi-main .title-isi-main {
+  border: 0px solid lawngreen;
+  height: 120px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+main .isi-main .con-isi-main .title-isi-main p {
+  border: 0px solid tomato;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+}
+main .isi-main .con-isi-main .mapel-isi-main {
+  border: 0px solid purple;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+main .isi-main .con-isi-main .mapel-isi-main .kartu {
+  border: 1px solid #4158aa;
+  height: 280px;
+  width: 300px;
+  border-radius: 24px;
+  overflow: hidden;
+}
+main .isi-main .con-isi-main .mapel-isi-main .kartu .img-kartu {
+  border: 0px solid hotpink;
+  height: 40%;
+  width: 100%;
+}
+main .isi-main .con-isi-main .mapel-isi-main .kartu .keterangan-kartu {
+  border: 0px solid darkorange;
+  height: 60%;
+  padding: 6px 6px 0px 6px;
+  background-color: #4158aa;
+  color: #fbfbfb;
+  display: grid;
+  grid-template: "kiri kanan" 1fr/2fr 1.1fr;
+}
+main .isi-main .con-isi-main .mapel-isi-main .kartu .keterangan-kartu .kiri-keterangan-kartu {
+  border: 0px solid purple;
+  grid-area: kiri;
+  height: 100%;
+}
+main .isi-main .con-isi-main .mapel-isi-main .kartu .keterangan-kartu .kiri-keterangan-kartu .mapel-kiri-keterangan-kartu {
+  border: 0px solid purple;
+}
+main .isi-main .con-isi-main .mapel-isi-main .kartu .keterangan-kartu .kiri-keterangan-kartu .mapel-kiri-keterangan-kartu p {
+  border: 0px solid purple;
+  font-weight: 700;
+  font-size: 14px;
+}
+main .isi-main .con-isi-main .mapel-isi-main .kartu .keterangan-kartu .kiri-keterangan-kartu .guru-kiri-keterangan-kartu {
+  border: 0px solid purple;
+}
+main .isi-main .con-isi-main .mapel-isi-main .kartu .keterangan-kartu .kiri-keterangan-kartu .guru-kiri-keterangan-kartu p {
+  border: 0px solid purple;
+  font-size: 12px;
+}
+main .isi-main .con-isi-main .mapel-isi-main .kartu .keterangan-kartu .kiri-keterangan-kartu .waktu-kiri-keterangan-kartu {
+  border: 0px solid purple;
+  margin-top: 47%;
+}
+main .isi-main .con-isi-main .mapel-isi-main .kartu .keterangan-kartu .kiri-keterangan-kartu .waktu-kiri-keterangan-kartu p {
+  border: 0px solid purple;
+}
+main .isi-main .con-isi-main .mapel-isi-main .kartu .keterangan-kartu .kanan-keterangan-kartu {
+  border: 0px solid purple;
+  grid-area: kanan;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+main .isi-main .con-isi-main .mapel-isi-main .kartu .keterangan-kartu .kanan-keterangan-kartu .tanggal-kanan-keterangan-kartu {
+  border: 0px solid purple;
+}
+main .isi-main .con-isi-main .mapel-isi-main .kartu .keterangan-kartu .kanan-keterangan-kartu .tanggal-kanan-keterangan-kartu p {
+  border: 0px solid purple;
+}
+main .isi-main .con-isi-main .mapel-isi-main .kartu .keterangan-kartu .kanan-keterangan-kartu .kondisi-kanan-keterangan-kartu {
+  border: 0px solid gold;
+  height: 18px;
+  width: 18px;
+  margin-right: 8px;
+  margin-bottom: 12px;
+  border-radius: 18px;
+  background-color: #fbfbfb;
+}
+
+footer {
+  border: 0px solid purple;
+  margin-top: 24px;
+}
+footer .copyright-footer {
+  border: 0px solid purple;
+  background-color: #dcdcdc;
+}
+footer .copyright-footer .con-copyright-footer {
+  border: 0px solid purple;
+  height: 56px;
+  display: flex;
+  align-items: center;
+}
+footer .copyright-footer .con-copyright-footer p {
+  border: 0px solid purple;
+  color: #787878;
+}/*# sourceMappingURL=style_dashboard_siswa.css.map */
