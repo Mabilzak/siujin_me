@@ -520,9 +520,13 @@ main .button-main .con-button-main .finish-main:hover {
   transition: 0.3s;
   background-color: #263159;
 }
-main .button-main .con-button-main .finish-main:active {
+main .button-main .con-button-main .finish-main:active p {
   transition: 0.3s;
-  background-color: #263159;
+  font-size: 14.2px;
+}
+main .button-main .con-button-main .finish-main:active i {
+  transition: 0.3s;
+  font-size: 16.5px;
 }
 
 footer {

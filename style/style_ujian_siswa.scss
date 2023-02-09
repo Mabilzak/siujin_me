@@ -545,8 +545,14 @@ main {
         background-color: #263159;
       }
       .finish-main:active {
-        transition: 0.3s;
-        background-color: #263159;
+        p {
+          transition: 0.3s;
+          font-size: 14.2px;
+        }
+        i {
+          transition: 0.3s;
+          font-size: 16.5px;
+        }
       }
     }
   }
